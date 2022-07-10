@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instafil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100vh;
+}
+
+.instaphone {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 50%;
+}
+
+.instaphone img{
+    width: 38rem;
+    margin-bottom: 10rem;
+}
+
+.continue {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+    margin-left: 5rem;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.group:nth-child(1) {
+    min-height: 19rem;
+}
+
+.group input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 15px;
+    text-align: center; /*Para linhar o placeholder*/
+}
+
+.group button {
+    background-color: rgb(19, 104, 189);
+    padding: 15px;
+    border: none;
+    width: 45%;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.blue{
+    color: rgb(19, 104, 189);
+    font-weight: 700;
+}
+
+.store{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app:nth-child(1){
+    background-image: url("./image/applestore.png");
+}
+
+.app:nth-child(2){
+    background-image: url("./image/playstore.png");
+}
